@@ -1,0 +1,61 @@
+
+.h1{background:red;}
+fieldset{background:pink;}
+
+.ul {
+list-style:hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    float:left;
+    
+}
+
+.li {
+    float: left;
+}
+
+.li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.li a:hover {
+    background-color: #111111;
+}
+
+.dd{overflow:hidden;
+background:gray;
+}
+
+.logo img{folt:left;
+width:150px;
+Height:70px;
+}
+
+.main{Max-width:1300px
+
+}
+
+.h2{color:red;
+
+}
+
+.change_content: after{
+contact:'';
+animation: changetext 
+10s infinite linear;
+
+color:black;
+}
+@keyframes :changetext{
+
+0%{content:"INDIA GK";}
+10%{content:"Rajsthan Gk";}
+
+}
